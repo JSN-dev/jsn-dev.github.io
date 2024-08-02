@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Fonction pour charger les données JSON
     function loadSkills() {
-      fetch('data/skills.json')
+      fetch('https://jsn-dev.github.io/assets/data/skills.json')
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
