@@ -1,14 +1,18 @@
 [
     {
-        "job_name":"DÉVELOPPEUR FULL STACK ",
+        "job_name": "DÉVELOPPEUR FULL STACK ",
         "company_name": "Formation et Projet personnel",
         "company_location": "Jurignac - Val des vignes (16)",
         "job_start": "juin 2024",
         "job_end": "aujourd’hui",
-        "responsabilities": []
+        "responsabilities": [
+            "Define It !"
+        ],
+        "technos": ["PROXMOX", "LXC", "FASTAPI", "FLASK", "MONGODB", "MYSQL"],
+        "langs": ["PYTHON", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
-        "job_name":"DÉVELOPPEUR FULL STACK ",
+        "job_name": "DÉVELOPPEUR FULL STACK ",
         "company_name": "Formation et Projet personnel",
         "company_location": "La Rochefoucauld (16)",
         "job_start": "oct. 2023",
@@ -18,10 +22,12 @@
             "Moteur de recherche de solutions historiques",
             "Modification dynamique et création de processus internes pour standardiser et modulariser la production de solutions",
             "Développement d’un système expert avec Proxmox pour générer plusieurs architectures logicielles"
-        ]
+        ],
+        "technos": ["PROXMOX", "LXC", "FASTAPI", "FLASK", "MONGODB", "MYSQL"],
+        "langs": ["PYTHON", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
-        "job_name":"DÉVELOPPEUR PYTHON",
+        "job_name": "DÉVELOPPEUR PYTHON",
         "company_name": "SKUOCEAN (AXE6)",
         "company_location": "Ruelle-sur-Touvre (16)",
         "job_start": "oct. 2022",
@@ -34,70 +40,86 @@
             "Scripts d’imports (PRESTASHOP)",
             "Recrutements",
             "Encadrement d’équipe"
-        ]
+        ],
+        "technos": ["PROXMOX", "LXC", "FLASK", "MONGODB", "LDAP", "CODEIGNITER", "JQUERY"],
+        "langs": ["PHP", "PYTHON", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
-        "job_name":"DÉVELOPPEUR PYTHON et PHP ",
-        "company_name":"SCIPLINE (AXE6)",
-        "company_location":"Angoulême (16)",
-        "job_start":"janv. 2021",
-        "job_end":"oct. 2022",
-        "responsabilities":[
+        "job_name": "DÉVELOPPEUR PYTHON ET PHP ",
+        "company_name": "SCIPLINE (AXE6)",
+        "company_location": "Angoulême (16)",
+        "job_start": "janv. 2021",
+        "job_end": "oct. 2022",
+        "responsabilities": [
             "Développement back office (PRESTASHOP) (importation et traitements de 300 000 produits)",
             "Développement CRM et ERP (PHP)"
-        ]
+        ],
+        "technos": ["PRESTASHOP", "PHP", "PYTHON", "CODEIGNTER", "VTIGER", "SYMFONY"],
+        "langs": ["PHP","PYTHON", "HTML", "CSS", "JAVASCRIPT" ]
     },
     {
-        "job_name":"DÉVELOPPEUR FULL STACK",
-        "company_name":"RIASTUDIO",
-        "company_location":"Niort (16)",
-        "job_start":"sept. 2020",
-        "job_end":"nov. 2020",
-        "responsabilities":[
+        "job_name": "DÉVELOPPEUR FULL STACK",
+        "company_name": "RIASTUDIO",
+        "company_location": "Niort (16)",
+        "job_start": "sept. 2020",
+        "job_end": "nov. 2020",
+        "responsabilities": [
             "Intégration (TWIG)",
             "Développement backend pour une solution interne (PHP)"
-        ]
+        ],
+        "technos": ["TWIG"],
+        "langs": ["PHP", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
-        "job_name":"CREATEUR JEUX VIDEOS",
-        "company_name":"OMNIPULSE",
-        "company_location":"St Laurent de Ceris (16)",
-        "job_start":"mars 2020",
-        "job_end":"janv. 2021",
-        "responsabilities":[
+        "job_name": "CREATEUR JEUX VIDEOS",
+        "company_name": "OMNIPULSE",
+        "company_location": "St Laurent de Ceris (16)",
+        "job_start": "mars 2020",
+        "job_end": "janv. 2021",
+        "responsabilities": [
             "Modélisation et création de Gameplay",
             "Gestion de projet"
-        ]
+        ],
+        "technos": ["SYMFONY", "LARAVEL"],
+        "langs": []
     },
     {
-        "job_name":"DÉVELOPPEUR D'APPLICATIONS WEB",
-        "company_name":"IDEALCOMS",
-        "company_location":"Angoulême (16)",
-        "start":"juil. 2019",
-        "end":"déc. 2019",
-        "responsabilities":[
+        "job_name": "DÉVELOPPEUR D'APPLICATIONS WEB",
+        "company_name": "IDEALCOMS",
+        "company_location": "Angoulême (16)",
+        "start": "juil. 2019",
+        "end": "déc. 2019",
+        "responsabilities": [
             "Développement d'applications internes, back-end et front-end",
             "Réparations front-end"
-        ]
+        ],
+        "technos": [],
+        "langs": []
     },
     {
-        "job_name":"DÉVELOPPEUR D'APPLICATIONS WEB",
-        "company_name":"CONSEPT - ASSEMBLEUR DE TALENTS",
-        "company_location":" Caen (14)",
-        "start":"avr. 2018",
-        "end":"févr. 2019",
-        "responsabilities":[]
+        "job_name": "DÉVELOPPEUR D'APPLICATIONS WEB",
+        "company_name": "CONSEPT - ASSEMBLEUR DE TALENTS",
+        "company_location": " Caen (14)",
+        "start": "avr. 2018",
+        "end": "févr. 2019",
+        "responsabilities": [
+            "Define It !",
+            "Define It !"
+        ],
+        "technos": [],
+        "langs": []
     },
     {
-        "job_name":"DÉVELOPPEUR WEB",
-        "company_name":"",
-        "company_location":"",
-        "start":"juin 2014",
-        "end":"juil. 2017",
-        "responsabilities":[
+        "job_name": "DÉVELOPPEUR WEB",
+        "company_name": "",
+        "company_location": "",
+        "start": "juin 2014",
+        "end": "juil. 2017",
+        "responsabilities": [
             "Création de sites internet",
             "Modifications et ajouts de fonctionnalités (bancaire, réseaux sociaux, achats)"
-        ]
+        ],
+        "technos": [],
+        "langs": []
     }
-
 ]

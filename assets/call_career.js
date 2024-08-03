@@ -17,15 +17,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   
     // Fonction pour afficher les données dans le HTML
-    function displayCareer(skills) {
-      const skillsList = document.getElementById('career-list');
-      skills.forEach(skill => {
-        const skill_div = document.createElement('div');
-        let subclass = "success";
-        skill_div.className = 'p-2';
-        if (skill.percent < 25 ){subclass = "danger"}else if(skill.percent <50){subclass="warning"}else if(skill.percent <75){subclass="info"}else if(skill.percent <100){subclass="primary"}
-        skill_div.innerHTML = `${skill.name}<div class='progress'> <div class='progress-bar bg-${subclass} progress-bar-striped progress-bar-animated' role='progressbar' style='width: ${skill.percent}%' aria-valuenow=${skill.percent} aria-valuemin='0' aria-valuemax='100'></div>`;
-        skillsList.appendChild(skill_div);
+    function displayCareer(career) {
+      const careerList = document.getElementById('career-list');
+      career.forEach(experience => {
+        const exp_div = document.createElement('div');
+        exp_div.className = 'p-2';
+        const responsabilities_ul = document.createElement('ul');
+        responsabilities_ul.className = 'list-group';
+        const responsabilities = experience.responsabilities.forEach(function(task){
+          const new_li = document.createElement('li');
+          new_li.className = 'list-group-item border-0';
+          new_li.textContent = task;
+          responsabilities_ul.appendChild(new_li);
+        })
+        exp_div.innerHTML = `<h3>${experience.job_name}</h3>`+
+        `<h4>${experience.company_name}</h4>`+
+        `${experience.company_location}`;
+        exp_div.appendChild(responsabilities_ul);
+        careerList.appendChild(exp_div);
+        const hr_balise = document.createElement('hr');
+        careerList.appendChild(hr_balise);
       });
     }
   
