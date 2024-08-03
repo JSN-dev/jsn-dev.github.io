@@ -1,37 +1,142 @@
 [
-    "Linux",
-    "Interface en ligne de commande (ILC)",
-    "Proxmox",
-    "CSS",
-    "SGBDR",
-    "Vue.js",
-    "Développement d’applications web",
-    "PostgreSQL",
-    "LXC",
-    "Développement d’API",
-    "Python",
-    "Programmation orientée objet (POO)",
-    "Flutter",
-    "Tests unitaires",
-    "Bases de données",
-    "LDAP",
-    "API de services web",
-    "Flask",
-    "MongoDB",
-    "Analyse de données",
-    "Développement de logiciel",
-    "NoSQL",
-    "Développement full-stack",
-    "Framework Symfony",
-    "Infrastructure as code (IaC)",
-    "Développement web back-end",
-    "HTML",
-    "Big data",
-    "AJAX",
-    "Architecture logicielle",
-    "Architecture de plateformes",
-    "Gestion de projet",
-    "Bash",
-    "Java",
-    "Docker"
-  ]
+  {
+    "name": "Linux",
+    "percent": 100
+  },
+  {
+    "name": "Interface en ligne de commande (ILC)",
+    "percent": 100
+  },
+  {
+    "name": "Proxmox",
+    "percent": 80
+  },
+  {
+    "name": "CSS",
+    "percent": 90
+  },
+  {
+    "name": "SGBDR",
+    "percent": 100
+  },
+  {
+    "name": "Vue.js",
+    "percent": 15
+  },
+  {
+    "name": "Développement d’applications web",
+    "percent": 95
+  },
+  {
+    "name": "PostgreSQL",
+    "percent": 75
+  },
+  {
+    "name": "LXC",
+    "percent": 80
+  },
+  {
+    "name": "Développement d’API",
+    "percent": 100
+  },
+  {
+    "name": "Python",
+    "percent": 95
+  },
+  {
+    "name": "Programmation orientée objet (POO)",
+    "percent": 100
+  },
+  {
+    "name": "Flutter",
+    "percent": 30
+  },
+  {
+    "name": "Tests unitaires",
+    "percent": 100
+  },
+  {
+    "name": "Bases de données",
+    "percent": 100
+  },
+  {
+    "name": "LDAP",
+    "percent": 90
+  },
+  {
+    "name": "API de services web",
+    "percent": 100
+  },
+  {
+    "name": "Flask",
+    "percent": 80
+  },
+  {
+    "name": "MongoDB",
+    "percent": 95
+  },
+  {
+    "name": "Analyse de données",
+    "percent": 100
+  },
+  {
+    "name": "Développement de logiciel",
+    "percent": 100
+  },
+  {
+    "name": "NoSQL",
+    "percent": 90
+  },
+  {
+    "name": "Développement full-stack",
+    "percent": 100
+  },
+  {
+    "name": "Framework Symfony",
+    "percent": 100
+  },
+  {
+    "name": "Infrastructure as code (IaC)",
+    "percent": 100
+  },
+  {
+    "name": "Développement web back-end",
+    "percent": 100
+  },
+  {
+    "name": "HTML",
+    "percent": 100
+  },
+  {
+    "name": "Big data",
+    "percent": 100
+  },
+  {
+    "name": "AJAX",
+    "percent": 100
+  },
+  {
+    "name": "Architecture logicielle",
+    "percent": 95
+  },
+  {
+    "name": "Architecture de plateformes",
+    "percent": 75
+  },
+  {
+    "name": "Gestion de projet",
+    "percent": 100
+  },
+  {
+    "name": "Bash",
+    "percent": 70
+  },
+  {
+    "name": "Java",
+    "percent": 20
+  },
+  {
+    "name": "Docker",
+    "percent": 85
+  }
+]
