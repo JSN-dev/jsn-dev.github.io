@@ -6,7 +6,8 @@
         "job_start": "juin 2024",
         "job_end": "aujourd’hui",
         "responsabilities": [
-            "Define It !"
+            "Création et mise en place d'architures multiserveurs",
+            "Développement de systeme de generation de micro application"
         ],
         "technos": ["PROXMOX", "LXC", "FASTAPI", "FLASK", "MONGODB", "MYSQL"],
         "langs": ["PYTHON", "HTML", "CSS", "JAVASCRIPT"]
@@ -51,8 +52,8 @@
         "job_start": "janv. 2021",
         "job_end": "oct. 2022",
         "responsabilities": [
-            "Développement back office (PRESTASHOP) (importation et traitements de 300 000 produits)",
-            "Développement CRM et ERP (PHP)"
+            "Développement back office ",
+            "Développement CRM et ERP"
         ],
         "technos": ["PRESTASHOP", "PHP", "PYTHON", "CODEIGNTER", "VTIGER", "SYMFONY"],
         "langs": ["PHP","PYTHON", "HTML", "CSS", "JAVASCRIPT" ]
@@ -60,12 +61,12 @@
     {
         "job_name": "DÉVELOPPEUR FULL STACK",
         "company_name": "RIASTUDIO",
-        "company_location": "Niort (16)",
+        "company_location": "Niort (79)",
         "job_start": "sept. 2020",
         "job_end": "nov. 2020",
         "responsabilities": [
             "Intégration (TWIG)",
-            "Développement backend pour une solution interne (PHP)"
+            "Développement backend pour une solution interne"
         ],
         "technos": ["TWIG"],
         "langs": ["PHP", "HTML", "CSS", "JAVASCRIPT"]
@@ -80,8 +81,8 @@
             "Modélisation et création de Gameplay",
             "Gestion de projet"
         ],
-        "technos": ["SYMFONY", "LARAVEL"],
-        "langs": []
+        "technos": ["SYMFONY", "LARAVEL", "UNITY", "BLENDER"],
+        "langs": ["PHP", "C#"]
     },
     {
         "job_name": "DÉVELOPPEUR D'APPLICATIONS WEB",
@@ -93,8 +94,8 @@
             "Développement d'applications internes, back-end et front-end",
             "Réparations front-end"
         ],
-        "technos": [],
-        "langs": []
+        "technos": ["LARAVEL", "JQUERY", "ELOQUENT"],
+        "langs": ["PHP", "SQL", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
         "job_name": "DÉVELOPPEUR D'APPLICATIONS WEB",
@@ -103,23 +104,24 @@
         "start": "avr. 2018",
         "end": "févr. 2019",
         "responsabilities": [
-            "Define It !",
-            "Define It !"
+            "Développement de systeme de monitoring de retour d'intervention (ENEDIS)",
+            "Mises a jour de systeme automatise de traitement de donnees"
         ],
-        "technos": [],
-        "langs": []
+        "technos": ["CODEIGNITER", "MYSQL"],
+        "langs": ["PHP", "SQL"]
     },
     {
         "job_name": "DÉVELOPPEUR WEB",
-        "company_name": "",
-        "company_location": "",
+        "company_name": "JONATHAN JANSEN (FREELANCE)",
+        "company_location": "Caen (14)",
         "start": "juin 2014",
         "end": "juil. 2017",
         "responsabilities": [
             "Création de sites internet",
-            "Modifications et ajouts de fonctionnalités (bancaire, réseaux sociaux, achats)"
+            "Modifications et ajouts de fonctionnalités (bancaire, réseaux sociaux, achats)",
+            "Scripts de synchronisation"
         ],
-        "technos": [],
-        "langs": []
+        "technos": ["WORDPRESS", "CAKEPHP"],
+        "langs": ["PHP", "PYTHON", "BASH"]
     }
 ]
