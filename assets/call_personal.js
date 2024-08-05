@@ -24,12 +24,24 @@ document.addEventListener('DOMContentLoaded', function () {
         const user_address = document.getElementById('user_address');
         const user_linkedin = document.getElementById('user_linkedin');
         const user_github = document.getElementById('user_github');
-        user_name.appendChild(personal[0].firstname+' '+personal[0].lastname);
-        user_phone.appendChild(personal[0].user_phone);
-        user_mail.appendChild(personal[0].user_mail);
-        user_address.appendChild(personal[0].city+' '+personal[0].postcode+' '+personal[0].country);
-        user_linkedin.appendChild(personal[0].user_linkedin);
-        user_github.appendChild(personal[0].user_github);
+        const user_name_content =  document.createElement('div');
+        const user_phone_content =  document.createElement('div');
+        const user_mail_content =  document.createElement('div');
+        const user_address_content =  document.createElement('div');
+        const user_linkedin_content =  document.createElement('div');
+        const user_github_content =  document.createElement('div');
+        user_name_content.innerHTML = `${personal.firstname} ${personal.lastname}`;
+        user_phone_content.innerHTML = `<i class="bi-phone"></i>${personal.phone}`;
+        user_mail_content.innerHTML = `<i class="bi-envelope"></i>${personal.mail}`;
+        user_address_content.innerHTML = `<i class="bi-mailbox"></i>${personal.city+' '+personal.postcode+' '+personal.country}`;
+        user_linkedin_content.innerHTML = `<i class="bi-linkedin"></i>${personal.linkedin}`;
+        user_github_content.innerHTML = `<i class="bi-github"></i>${personal.github_profile}`;
+        user_name.appendChild(user_name_content);
+        user_phone.appendChild(user_phone_content);
+        user_mail.appendChild(user_mail_content);
+        user_address.appendChild(user_address_content);
+        user_linkedin.appendChild(user_linkedin_content);
+        user_github.appendChild(user_github_content);
     }
   
     // Charger les compétences au démarrage
