@@ -24,12 +24,12 @@ document.addEventListener('DOMContentLoaded', function () {
         const user_address = document.getElementById('user_address');
         const user_linkedin = document.getElementById('user_linkedin');
         const user_github = document.getElementById('user_github');
-        user_name.appendChild(personal.frstname+' '+personal.lastname);
-        user_phone.appendChild(personal.user_phone);
-        user_mail.appendChild(personal.user_mail);
-        user_address.appendChild(personal.city+' '+personal.postcode+' '+personal.country);
-        user_linkedin.appendChild(personal.user_linkedin);
-        user_github.appendChild(personal.user_github);
+        user_name.appendChild(personal[0].firstname+' '+personal[0].lastname);
+        user_phone.appendChild(personal[0].user_phone);
+        user_mail.appendChild(personal[0].user_mail);
+        user_address.appendChild(personal[0].city+' '+personal[0].postcode+' '+personal[0].country);
+        user_linkedin.appendChild(personal[0].user_linkedin);
+        user_github.appendChild(personal[0].user_github);
     }
   
     // Charger les compétences au démarrage
