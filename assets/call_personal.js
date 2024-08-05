@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const user_github_content =  document.createElement('div');
         user_name_content.innerHTML = `${personal.firstname} ${personal.lastname}`;
         user_phone_content.innerHTML = `<i class="bi-phone"></i>${personal.phone}`;
-        user_mail_content.innerHTML = `<i class="bi-envelope"></i>${personal.mail}`;
+        user_mail_content.innerHTML = `<i class="bi-envelope"></i>${personal.email}`;
         user_address_content.innerHTML = `<i class="bi-mailbox"></i>${personal.city+' '+personal.postcode+' '+personal.country}`;
         user_linkedin_content.innerHTML = `<i class="bi-linkedin"></i>${personal.linkedin}`;
         user_github_content.innerHTML = `<i class="bi-github"></i>${personal.github_profile}`;
