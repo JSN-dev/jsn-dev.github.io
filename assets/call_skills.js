@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let subclass = "success";
         skill_div.className = 'p-2';
         if (skill.percent < 25 ){subclass = "danger"}else if(skill.percent <50){subclass="warning"}else if(skill.percent <75){subclass="info"}else if(skill.percent <100){subclass="primary"}
-        skill_div.innerHTML = `${skill.name}<div class='progress'> <div class='progress-bar bg-${subclass} progress-bar-striped progress-bar-animated' role='progressbar' style='width: ${skill.percent}%' aria-valuenow=${skill.percent} aria-valuemin='0' aria-valuemax='100'></div>`;
+        skill_div.innerHTML = `${skill.name}<div class='progress'> <div class='progress-bar bg-${subclass}' role='progressbar' style='width: ${skill.percent}%' aria-valuenow=${skill.percent} aria-valuemin='0' aria-valuemax='100'></div>`;
         skillsList.appendChild(skill_div);
       });
     }

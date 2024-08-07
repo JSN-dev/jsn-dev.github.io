@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const user_linkedin_content =  document.createElement('div');
         const user_github_content =  document.createElement('div');
         user_name_content.innerHTML = `${personal.firstname} ${personal.lastname}`;
-        user_phone_content.innerHTML = `<i class="bi-phone"></i>${personal.phone}`;
-        user_mail_content.innerHTML = `<i class="bi-envelope"></i>${personal.email}`;
-        user_address_content.innerHTML = `<i class="bi-mailbox"></i>${personal.city+' '+personal.postcode+' '+personal.country}`;
-        user_linkedin_content.innerHTML = `<i class="bi-linkedin"></i>${personal.linkedin}`;
-        user_github_content.innerHTML = `<i class="bi-github"></i>${personal.github_profile}`;
+        user_phone_content.innerHTML = `<i class="bi-phone"></i> ${personal.phone}`;
+        user_mail_content.innerHTML = `<i class="bi-envelope"></i> ${personal.email}`;
+        user_address_content.innerHTML = `<i class="bi-mailbox"></i> ${personal.postcode} ${personal.city}`;
+        user_linkedin_content.innerHTML = `<i class="bi-linkedin"></i> ${personal.linkedin}`;
+        user_github_content.innerHTML = `<i class="bi-github"></i> ${personal.github_profile}`;
         user_name.appendChild(user_name_content);
         user_phone.appendChild(user_phone_content);
         user_mail.appendChild(user_mail_content);
