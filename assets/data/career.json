@@ -55,7 +55,7 @@
             "Développement back office ",
             "Développement CRM et ERP"
         ],
-        "technos": ["PRESTASHOP", "PHP", "PYTHON", "CODEIGNTER", "VTIGER", "SYMFONY"],
+        "technos": ["PRESTASHOP", "CODEIGNITER", "VTIGER", "SYMFONY"],
         "langs": ["PHP","PYTHON", "HTML", "CSS", "JAVASCRIPT" ]
     },
     {
@@ -68,7 +68,7 @@
             "Intégration (TWIG)",
             "Développement backend pour une solution interne"
         ],
-        "technos": ["TWIG"],
+        "technos": ["TWIG", "WEBPACK", "TORTOISE SVN"],
         "langs": ["PHP", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
@@ -81,8 +81,8 @@
             "Modélisation et création de Gameplay",
             "Gestion de projet"
         ],
-        "technos": ["SYMFONY", "LARAVEL", "UNITY", "BLENDER"],
-        "langs": ["PHP", "C#"]
+        "technos": ["SYMFONY", "LARAVEL", "JQUERY", "BOOTSTRAP", "UNITY", "BLENDER", "GIT"],
+        "langs": ["PHP", "C#", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
         "job_name": "DÉVELOPPEUR D'APPLICATIONS WEB",
@@ -94,7 +94,7 @@
             "Développement d'applications internes, back-end et front-end",
             "Réparations front-end"
         ],
-        "technos": ["LARAVEL", "JQUERY", "ELOQUENT"],
+        "technos": ["LARAVEL", "JQUERY", "ELOQUENT", "GIT"],
         "langs": ["PHP", "SQL", "HTML", "CSS", "JAVASCRIPT"]
     },
     {
@@ -104,10 +104,10 @@
         "start": "Avril 2018",
         "end": "Février 2019",
         "responsabilities": [
-            "Développement de systeme de monitoring de retour d'intervention (ENEDIS)",
+            "Développement de systeme de monitoring de retour d'interventions (ENEDIS)",
             "Mises a jour de systeme automatise de traitement de donnees"
         ],
-        "technos": ["CODEIGNITER", "MYSQL"],
+        "technos": ["CODEIGNITER", "MYSQL", "TORTOISE SVN"],
         "langs": ["PHP", "SQL"]
     },
     {

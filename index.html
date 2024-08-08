@@ -29,22 +29,23 @@
 <body>
     <div class="container-fluid">
 
-        <div class="row">
-            <div class="col-md-1 bg-dark text-light text-center">
+        <div class="row d-print-grid">
+            <!-- <div class="col-md-1 bg-dark text-light text-center justify-content-center">
                 <img class="img-thumbnail rounded-circle d-block m-2 border-0 p-0"
                     src="https://media.licdn.com/dms/image/D4E03AQHWjy-Q5GNexg/profile-displayphoto-shrink_200_200/0/1718640333714?e=1727913600&v=beta&t=5byN72rpBHMKnik4UVrvmnCAPRvQ3w6DOd-V0K-1DLA"
                     alt="">
-            </div>
-            <div class="col-md-2 bg-dark text-light">
-                <div class="text-center" id="user_name"></div>
+            </div> -->
+            <div class="col-md-3 bg-dark text-light">
+                <div class="text-left" id="user_name"></div>
                 <div class="text-left" id="user_phone"></div>
                 <div class="text-left" id="user_mail"></div>
                 <div class="text-left" id="user_address"></div>
                 <div class="text-left" id="user_linkedin"></div>
                 <div class="text-left" id="user_github"></div>
             </div>
-            <div class="col-md-9 mt-6">
-                <h1>DÉVELOPPEUR FULL STACK</h1>
+            <div class="col-md-9 col-xl-9 mt-6 align-middle">
+                <button class="btn btn-info d-print-none" onclick="imprimerPage()">Imprimer cette page</button> <br>
+                <h2 class="text-center">DÉVELOPPEUR FULL STACK</h2>
             </div>
         </div>
         <div class="row">
@@ -55,7 +56,7 @@
                             <button class="accordion-button  bg-dark text-light" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#skills-collapseOne" aria-expanded="true"
                                 aria-controls="skills-collapseOne">
-                                COMPÉTENCES
+                                <h2>COMPÉTENCES</h2>
                             </button>
                         </h2>
                         <div id="skills-collapseOne" class="accordion-collapse collapse show"
@@ -66,36 +67,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-9 col-md-6 bg-teal">
-                <div class="accordion" id="career-expanded">
-                    <div class="career-items">
-                        <h2 class="accordion-header" id="career-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#career-collapseOne" aria-expanded="true"
-                                aria-controls="career-collapseOne">
-                                EXPÉRIENCES</button>
-                        </h2>
-                        <div id="career-collapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="career-headingOne">
-                            <div id="career-list" class="accordion-body"></div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm-3 px-0">
                 <div class="accordion" id="hobbies-expanded">
                     <div class="hobbies-items">
                         <h2 class="accordion-header h2" id="hobbies-headingOne">
                             <button class="accordion-button  bg-dark text-light" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#hobbies-collapseOne" aria-expanded="true"
                                 aria-controls="hobbies-collapseOne">
-                                CENTRES D'INTÉRET
+                                <h2>CENTRES D'INTÉRET</h2>
                             </button>
                         </h2>
                         <div id="hobbies-collapseOne" class="accordion-collapse collapse show"
@@ -107,14 +85,30 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-9 col-md-6 bg-teal">
+            <div class="col-sm-9 col-md-9">
+                <div class="accordion" id="career-expanded">
+                    <div class="career-items">
+                        <h2 class="accordion-header" id="career-headingOne">
+                            <button class="accordion-button bg-white text-dark" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#career-collapseOne" aria-expanded="true"
+                                aria-controls="career-collapseOne">
+                                <h2>EXPÉRIENCES</h2></button>
+                        </h2>
+                        <div id="career-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="career-headingOne">
+                            <div id="career-list" class="accordion-body"></div>
+                        </div>
+
+                    </div>
+                </div>
+
                 <div class="accordion" id="formation-expanded">
                     <div class="formation-items">
                         <h2 class="accordion-header" id="formation-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button bg-white text-dark" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#formation-collapseOne" aria-expanded="true"
                                 aria-controls="formation-collapseOne">
-                                FORMATION</button>
+                                <h2>FORMATION</h2></button>
                         </h2>
                         <div id="formation-collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="formation-headingOne">
@@ -126,6 +120,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function imprimerPage() {
+            window.print();
+        }
+    </script>
 </body>
 
 </html>

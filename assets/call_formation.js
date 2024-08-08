@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
       formation.forEach(course => {
         const exp_div = document.createElement('div');
         exp_div.className = 'p-2';
-        exp_div.innerHTML = `<h3>${course.title}</h3>`+
-        `<h4>${course.location}</h4>`+
-        `${course.year}`;
+        exp_div.innerHTML = `<div class='fst-italic'>${course.year}</div>`+
+        `<h5>${course.title}</h5>`+
+        `<h6>${course.location}</h6>`;
         formationList.appendChild(exp_div);
         const hr_balise = document.createElement('hr');
         formationList.appendChild(hr_balise);

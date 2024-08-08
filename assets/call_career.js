@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         responsabilities_ul.className = 'list-group';
         const responsabilities = experience.responsabilities.forEach(function(task){
           const new_li = document.createElement('li');
-          new_li.className = 'list-group-item border-0';
+          new_li.className = 'list-group-item border-0 py-0';
           new_li.textContent = task;
           responsabilities_ul.appendChild(new_li);
         });
@@ -46,7 +46,8 @@ document.addEventListener('DOMContentLoaded', function () {
           new_techno_bagde.textContent = tech;
           tech_row.appendChild(new_techno_bagde);
         });
-        exp_div.innerHTML = `<h3>${experience.job_name}</h3>`+
+        exp_div.innerHTML = `<div class='fst-italic'> ${experience.job_start} - ${experience.job_end} : </div>`+
+        `<h3>${experience.job_name}</h3>`+
         `<h4>${experience.company_name}</h4>`+
         `${experience.company_location}`;
         exp_div.appendChild(responsabilities_ul);
