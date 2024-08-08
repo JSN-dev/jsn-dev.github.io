@@ -88,8 +88,8 @@
         "job_name": "DÉVELOPPEUR D'APPLICATIONS WEB",
         "company_name": "IDEALCOMS",
         "company_location": "Angoulême (16)",
-        "start": "Juillet 2019",
-        "end": "Décembre 2019",
+        "job_start": "Juillet 2019",
+        "job_end": "Décembre 2019",
         "responsabilities": [
             "Développement d'applications internes, back-end et front-end",
             "Réparations front-end"
@@ -101,8 +101,8 @@
         "job_name": "DÉVELOPPEUR D'APPLICATIONS WEB",
         "company_name": "CONSEPT - ASSEMBLEUR DE TALENTS",
         "company_location": " Caen (14)",
-        "start": "Avril 2018",
-        "end": "Février 2019",
+        "job_start": "Avril 2018",
+        "job_end": "Février 2019",
         "responsabilities": [
             "Développement de systeme de monitoring de retour d'interventions (ENEDIS)",
             "Mises a jour de systeme automatise de traitement de donnees"
@@ -114,8 +114,8 @@
         "job_name": "DÉVELOPPEUR WEB",
         "company_name": "JONATHAN JANSEN (FREELANCE)",
         "company_location": "Caen (14)",
-        "start": "Juin 2014",
-        "end": "Juillet 2017",
+        "job_start": "Juin 2014",
+        "job_end": "Juillet 2017",
         "responsabilities": [
             "Création de sites internet",
             "Modifications et ajouts de fonctionnalités (bancaire, réseaux sociaux, achats)",
