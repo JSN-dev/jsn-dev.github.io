@@ -4,15 +4,11 @@
     "percent": 100
   },
   {
-    "name": "Interface en ligne de commande (ILC)",
-    "percent": 100
-  },
-  {
     "name": "Proxmox",
     "percent": 80
   },
   {
-    "name": "CSS",
+    "name": "HTLM/CSS",
     "percent": 90
   },
   {
@@ -36,10 +32,6 @@
     "percent": 80
   },
   {
-    "name": "Développement d’API",
-    "percent": 100
-  },
-  {
     "name": "Python",
     "percent": 95
   },
@@ -52,16 +44,8 @@
     "percent": 30
   },
   {
-    "name": "Tests unitaires",
-    "percent": 100
-  },
-  {
     "name": "Bases de données",
     "percent": 100
-  },
-  {
-    "name": "LDAP",
-    "percent": 90
   },
   {
     "name": "API de services web",
@@ -80,14 +64,6 @@
     "percent": 100
   },
   {
-    "name": "Développement de logiciel",
-    "percent": 100
-  },
-  {
-    "name": "NoSQL",
-    "percent": 90
-  },
-  {
     "name": "Développement full-stack",
     "percent": 100
   },
@@ -96,19 +72,7 @@
     "percent": 100
   },
   {
-    "name": "Infrastructure as code (IaC)",
-    "percent": 100
-  },
-  {
     "name": "Développement web back-end",
-    "percent": 100
-  },
-  {
-    "name": "HTML",
-    "percent": 100
-  },
-  {
-    "name": "Big data",
     "percent": 100
   },
   {
@@ -120,20 +84,8 @@
     "percent": 95
   },
   {
-    "name": "Architecture de plateformes",
-    "percent": 75
-  },
-  {
-    "name": "Gestion de projet",
-    "percent": 100
-  },
-  {
     "name": "Bash",
     "percent": 70
-  },
-  {
-    "name": "Java",
-    "percent": 20
   },
   {
     "name": "Docker",

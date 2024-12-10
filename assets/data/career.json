@@ -1,10 +1,23 @@
 [
     {
+        "job_name": "Freelance",
+        "company_name": "Result",
+        "company_location": "Jurignac - Val des vignes (16)",
+        "job_start": "Octobre 2024",
+        "job_end": "Aujourd'hui",
+        "responsabilities": [
+            "Création et mise en place d'architures multiserveurs",
+            "Développement de systeme de generation de micro application"
+        ],
+        "technos": ["PROXMOX", "LXC", "FASTAPI", "FLASK", "MONGODB", "MYSQL"],
+        "langs": ["PYTHON", "HTML", "CSS", "JAVASCRIPT"]
+    },
+    {
         "job_name": "DÉVELOPPEUR FULL STACK ",
         "company_name": "Formation et Projet personnel",
         "company_location": "Jurignac - Val des vignes (16)",
         "job_start": "Juin 2024",
-        "job_end": "aujourd’hui",
+        "job_end": "Octobre 2024",
         "responsabilities": [
             "Création et mise en place d'architures multiserveurs",
             "Développement de systeme de generation de micro application"

@@ -46,9 +46,9 @@ document.addEventListener('DOMContentLoaded', function () {
           new_techno_bagde.textContent = tech;
           tech_row.appendChild(new_techno_bagde);
         });
-        exp_div.innerHTML = `<div class='fst-italic'> ${experience.job_start} - ${experience.job_end} : </div>`+
-        `<h3>${experience.job_name}</h3>`+
+        exp_div.innerHTML = `<h3>${experience.job_name}</h3>`+
         `<h4>${experience.company_name}</h4>`+
+        `<div class='fst-italic'> ${experience.job_start} - ${experience.job_end} : </div>`+
         `${experience.company_location}`;
         exp_div.appendChild(responsabilities_ul);
         exp_div.appendChild(lang_row);
